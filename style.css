@@ -1,0 +1,36 @@
+html {
+  color: #ABA6A2 !important;
+  font-family: "Times New Roman" !important;
+}
+
+i, a, p, item {
+  color: #ABA6A2;
+}
+
+image {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.ui.borderless.topmenu.menu {
+  box-shadow: none;
+  border: none;
+  background-color: #fff;
+  color: #ABA6A2;
+}
+
+.ui.borderless.middlemenu.menu {
+  box-shadow: none;
+  border: none;
+  background-color: #fff;
+  color: #ABA6A2;
+}
+
+.ui.three.column.centered.grid.container {
+  padding-top: 50px;
+  padding-bottom: 60px;
+}
+
+
+
+
