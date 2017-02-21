@@ -1,15 +1,21 @@
+body {
+  margin-right: 8%;
+  margin-left: 8%;
+  margin-top: -3px
+}
+
 i, a, p, .item {
   color: #ABA6A2;
 }
 
 .italic-item {
   font-style: italic;
+  font-size: small;
   color: #ABA6A2;
 }
 
-.image {
-  padding-left: 30px;
-  padding-right: 30px;
+.ui.centered.image {
+  margin-bottom: 1%
 }
 
 .ui.borderless.topmenu.menu {
@@ -17,32 +23,42 @@ i, a, p, .item {
   border: none;
   background-color: #fff;
   color: #ABA6A2;
-  padding-left: 12%;
-  padding-right: 12%;
+  padding-left: 3%;
+  padding-right: 3%
 }
 
-.ui.borderless.middlemenu.menu {
+.ui.borderless.seven.item.menu {
   box-shadow: none;
   border: none;
   background-color: #fff;
   color: #ABA6A2;
+  font-size: small;
+  padding-top: 1%;
+  padding-bottom: 2%;
+  padding-left: 5% !important;
+  padding-right: 5% !important
 }
 
-.ui.two.column.centered.grid.container {
-  padding-top: 50px;
-  padding-bottom: 60px
+.ui.two.column.grid.container {
+  padding-top: 40px;
+  padding-bottom: 60px;
+  padding-left: .75%;
+  padding-right: .75%
 }
 
 .slider {
   width: 50%;
   margin: 100px auto;
 }
+
 .slick-slide {
   margin: 0px 20px;
 }
+
 .slick-slide img {
-  width: 85%;
+  width: 100%;
 }
+
 .slick-prev:before,
 .slick-next:before {
   color: black;
@@ -65,7 +81,8 @@ body, a, p, .menu, .item, .italic.item {
 .large.facebook.square.link.icon,
 .large.instagram.link.icon {
   color: #ECE7E4 !important;
-  : #ABA6A2;
+  padding-left: 5%;
+  padding-right: 5%
 }
 
 .large.pinterest.square.link.icon:hover,
@@ -75,4 +92,8 @@ body, a, p, .menu, .item, .italic.item {
 .large.instagram.link.icon:hover {
   color: #ABA6A2 !important;
   ;
+}
+
+.copyright {
+  font-size: x-small;
 }
