@@ -1,13 +1,13 @@
-html {
-  color: #ABA6A2 !important;
-  font-family: "Times New Roman" !important;
-}
-
-i, a, p, item {
+i, a, p, .item {
   color: #ABA6A2;
 }
 
-image {
+.italic-item {
+  font-style: italic;
+  color: #ABA6A2;
+}
+
+.image {
   padding-left: 30px;
   padding-right: 30px;
 }
@@ -17,6 +17,8 @@ image {
   border: none;
   background-color: #fff;
   color: #ABA6A2;
+  padding-left: 12%;
+  padding-right: 12%;
 }
 
 .ui.borderless.middlemenu.menu {
@@ -26,11 +28,51 @@ image {
   color: #ABA6A2;
 }
 
-.ui.three.column.centered.grid.container {
+.ui.two.column.centered.grid.container {
   padding-top: 50px;
-  padding-bottom: 60px;
+  padding-bottom: 60px
 }
 
+.slider {
+  width: 50%;
+  margin: 100px auto;
+}
+.slick-slide {
+  margin: 0px 20px;
+}
+.slick-slide img {
+  width: 85%;
+}
+.slick-prev:before,
+.slick-next:before {
+  color: black;
+}
 
+@font-face  {
+  font-family: 'Georgia';
+  src:url('themes/basic/assets/fonts/fontname.eot');
+  src:url('themes/basic/assets/fonts/fontname.eot?#') format('eot'),
+  url('themes/basic/assets/fonts/fontname.woff') format('woff');
+}
 
+body, a, p, .menu, .item, .italic.item {
+  font-family: 'Georgia';
+}
 
+.large.pinterest.square.link.icon,
+.large.twitter.square.link.icon,
+.large.tumblr.square.link.icon,
+.large.facebook.square.link.icon,
+.large.instagram.link.icon {
+  color: #ECE7E4 !important;
+  : #ABA6A2;
+}
+
+.large.pinterest.square.link.icon:hover,
+.large.twitter.square.link.icon:hover,
+.large.tumblr.square.link.icon:hover,
+.large.facebook.square.link.icon:hover,
+.large.instagram.link.icon:hover {
+  color: #ABA6A2 !important;
+  ;
+}

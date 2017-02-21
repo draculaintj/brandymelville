@@ -3,8 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <title>Brandy Melville</title>
+
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.2/semantic.min.css">
   <link rel="stylesheet" href="style.css">
+
+  <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
   <script type="text/javascript"
           src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.2/semantic.min.js"></script>
@@ -17,98 +22,112 @@
     <div class="ui fitted dropdown item">
       <i class="us flag"></i>
       <div class="menu">
-        <div class="item">USA (USD)</div>
-        <div class="item">UK (GBP)</div>
-        <div class="item">EUROPE (EUR)</div>
+        <div class="item"><p>USA (USD)</p></div>
+        <div class="item"><p>UK (GBP)</p></div>
+        <div class="item"><p>EUROPE (EUR)</p></div>
       </div>
     </div>
-    <div class="fitted item"> Free shipping for orders over $150!</div>
+    <div class="fitted item"><p class="italic-item">Free shipping for orders over $150!</p></div>
 
-    <a class="fitted right item"><i class="search icon"></i></a>
-    <div class="ui dropdown fitted item">
+    <a class="right item"><i class="search icon"></i></a>
+    <div class="ui dropdown item">
       <i class="content icon"></i>
       <div class="menu">
-        <div class="item">SIGN IN</div>
-        <div class="item">MY ACCOUNT</div>
-        <div class="item">CUSTOMER SERVICE</div>
-        <div class="item">LOCATIONS</div>
+        <div class="item"><p>SIGN IN</p></div>
+        <div class="item"><p>MY ACCOUNT</p></div>
+        <div class="item"><p>CUSTOMER SERVICE</p></div>
+        <div class="item"><p>LOCATIONS</p></div>
       </div>
     </div>
-    <a class="fitted item"><i class="shopping bag icon"></i>0</a>
+    <a class="item"><i class="shopping bag icon"></i><p>0</p></a>
   </div>
 </div>
 <img class="ui centered image"
-     src="http://cdn.brandymelvilleusa.com/skin/frontend/galtone/default/images/brandymelville_logo.svg" width="30%">
+     src="http://cdn.brandymelvilleusa.com/skin/frontend/galtone/default/images/brandymelville_logo.svg" width="35%">
 
 <div class="ui borderless middlemenu menu">
   <div class="ui centered grid container">
 
-    <a class="item">JUST IN</a>
+    <a class="item"><p>JUST IN</p></a>
 
-    <a class="item">BASICS</a>
+    <a class="item"><p>BASICS</p></a>
 
     <div class="ui dropdown item">
-      <div class="text">CLOTHING</div>
+      <div class="text"><p>CLOTHING</p></div>
       <div class="menu">
-        <div class="item">BODYSUITS</div>
-        <div class="item">SILK & VELVET PIECES</div>
-        <div class="item">DRESSES</div>
-        <div class="item">TOPS</div>
-        <div class="item">BOTTOMS</div>
-        <div class="item">SWEATERS</div>
-        <div class="item">OUTERWEAR</div>
-        <div class="item">INTIMATES</div>
-        <div class="item">FLANNELS</div>
+        <div class="item"><p>BODYSUITS</p></div>
+        <div class="item"><p>SILK & VELVET PIECES</p></div>
+        <div class="item"><p>DRESSES</p></div>
+        <div class="item"><p>TOPS</p></div>
+        <div class="item"><p>BOTTOMS</p></div>
+        <div class="item"><p>SWEATERS</p></div>
+        <div class="item"><p>OUTERWEAR</p></div>
+        <div class="item"><p>INTIMATES</p></div>
+        <div class="item"><p>FLANNELS</p></div>
       </div>
     </div>
 
     <div class="ui dropdown item">
-      <div class="text">GRAPHICS</div>
+      <div class="text"><p>GRAPHICS</p></div>
       <div class="menu">
-        <div class="item">PRINTS</div>
-        <div class="item">EMBROIDERY</div>
-        <div class="item">BAND TEES</div>
+        <div class="item"><p>PRINTS</p></div>
+        <div class="item"><p>EMBROIDERY</p></div>
+        <div class="item"><p>BAND TEES</p></div>
       </div>
     </div>
 
     <div class="ui dropdown item">
-      <div class="text">ACCESSORIES</div>
+      <div class="text"><p>ACCESSORIES</p></div>
       <div class="menu">
-        <div class="item">JEWELRY</div>
-        <div class="item">HATS & CAPS</div>
-        <div class="item">BAGS & BACKPACKS</div>
-        <div class="item">SOCKS</div>
-        <div class="item">BELTS</div>
-        <div class="item">PATCHES</div>
+        <div class="item"><p>JEWELRY</p></div>
+        <div class="item"><p>HATS & CAPS</p></div>
+        <div class="item"><p>BAGS & BACKPACKS</p></div>
+        <div class="item"><p>SOCKS</p></div>
+        <div class="item"><p>BELTS</p></div>
+        <div class="item"><p>PATCHES</p></div>
       </div>
     </div>
 
-    <a class="item">GIFT CARDS</a>
+    <a class="item"><p>GIFT CARDS</p></a>
 
-    <a class="item">LOOKBOOK</a>
+    <a class="item"><p>LOOKBOOK</p></a>
 
   </div>
 
 </div>
 
-<img class="ui centered image" src="http://cdn.brandymelvilleusa.com/media//home_slider/BRANDYMELVILLE011717_7-1.jpg"
-     width="90%">
 
-<div class="ui three column centered grid container">
+<div class="carousel">
+  <div><img class="ui centered image"
+            src="http://cdn.brandymelvilleusa.com/media//home_slider/BRANDYMELVILLE011717_7-1.jpg"></div>
+  <div><img class="ui centered image"
+            src="http://cdn.brandymelvilleusa.com/media//home_slider/BRANDYMELVILLE011717_6-2.jpg"></div>
+  <div><img class="ui centered image"
+            src="http://cdn.brandymelvilleusa.com/media//home_slider/BRANDYMELVILLE011717_5-3.jpg"></div>
+  <div><img class="ui centered image"
+            src="http://cdn.brandymelvilleusa.com/media//home_slider/BRANDYMELVILLE011717_4-4.jpg"></div>
+  <div><img class="ui centered image"
+            src="http://cdn.brandymelvilleusa.com/media//home_slider/BRANDYMELVILLE011717_3-5.jpg"></div>
+  <div><img class="ui centered image"
+            src="http://cdn.brandymelvilleusa.com/media//home_slider/BRANDYMELVILLE011717_2-6.jpg"></div>
+  <div><img class="ui centered image"
+            src="http://cdn.brandymelvilleusa.com/media//home_slider/BRANDYMELVILLE011717_1-7.jpg"></div>
+</div>
+
+
+<div class="ui two column centered grid container">
 
   <div class="column">
     <p> Brandy Melville - © 2017. All rights reserved.</p>
   </div>
 
-  <div class="column"></div>
-
   <div class="column">
     <div class="ui five column centered grid container">
-      <a class="item"><i class="big pinterest square icon"></i></a>
-      <a class="item"><i class="big twitter square icon"></i></a>
-      <a class="item"><i class="big tumblr square icon"></i></a>
-      <a class="item"><i class="big facebook square icon"></i></a>
-      <a class="item"><i class="big instagram icon"></i></a>
+      <a href="https://www.pinterest.com/brandymelville/"><i class="large pinterest square link icon"></i></a>
+      <a href="https://twitter.com/BrandyUSA"><i class="large twitter square link icon"></i></a>
+      <a href="http://brandyusa.tumblr.com/"><i class="large tumblr square link icon"></i></a>
+      <a href="https://www.facebook.com/brandy.usa"><i class="large facebook square link icon"></i></a>
+      <a href="https://www.instagram.com/brandymelvilleusa/"><i class="large instagram link icon"></i></a>
     </div>
   </div>
 
@@ -117,7 +136,18 @@
 <script>
   $('.ui.dropdown')
       .dropdown();
+  $(document).ready(function () {
+    $('.carousel').slick({
+      autoplay: true,
+      fade: true,
+      speed: 500
+    });
+  });
 </script>
+
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="slick/slick.min.js"></script>
 
 </body>
 </html>
