@@ -8,6 +8,17 @@ i, a, p, .item {
   color: #ABA6A2;
 }
 
+@font-face {
+  font-family: 'Georgia';
+  src: url('themes/basic/assets/fonts/fontname.eot');
+  src: url('themes/basic/assets/fonts/fontname.eot?#') format('eot'),
+  url('themes/basic/assets/fonts/fontname.woff') format('woff');
+}
+
+body, a, p, .menu, .item, .italic.item {
+  font-family: 'Georgia';
+}
+
 .italic-item {
   font-style: italic;
   font-size: small;
@@ -64,17 +75,6 @@ i, a, p, .item {
   color: black;
 }
 
-@font-face  {
-  font-family: 'Georgia';
-  src:url('themes/basic/assets/fonts/fontname.eot');
-  src:url('themes/basic/assets/fonts/fontname.eot?#') format('eot'),
-  url('themes/basic/assets/fonts/fontname.woff') format('woff');
-}
-
-body, a, p, .menu, .item, .italic.item {
-  font-family: 'Georgia';
-}
-
 .large.pinterest.square.link.icon,
 .large.twitter.square.link.icon,
 .large.tumblr.square.link.icon,
@@ -90,8 +90,7 @@ body, a, p, .menu, .item, .italic.item {
 .large.tumblr.square.link.icon:hover,
 .large.facebook.square.link.icon:hover,
 .large.instagram.link.icon:hover {
-  color: #ABA6A2 !important;
-  ;
+  color: #ABA6A2 !important;;
 }
 
 .copyright {
