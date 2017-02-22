@@ -1,0 +1,98 @@
+body {
+  margin-right: 8%;
+  margin-left: 8%;
+  margin-top: -3px
+}
+
+i, a, p, .item {
+  color: #ABA6A2;
+}
+
+@font-face {
+  font-family: 'Georgia';
+  src: url('themes/basic/assets/fonts/fontname.eot');
+  src: url('themes/basic/assets/fonts/fontname.eot?#') format('eot'),
+  url('themes/basic/assets/fonts/fontname.woff') format('woff');
+}
+
+body, a, p, .menu, .item, .italic.item {
+  font-family: 'Georgia';
+}
+
+.italic-item {
+  font-style: italic;
+  font-size: small;
+  color: #ABA6A2;
+}
+
+.ui.centered.image {
+  margin-bottom: 1%
+}
+
+.ui.borderless.topmenu.menu {
+  box-shadow: none;
+  border: none;
+  background-color: #fff;
+  color: #ABA6A2;
+  padding-left: 3%;
+  padding-right: 3%
+}
+
+.ui.borderless.seven.item.menu {
+  box-shadow: none;
+  border: none;
+  background-color: #fff;
+  color: #ABA6A2;
+  font-size: small;
+  padding-top: 1%;
+  padding-bottom: 2%;
+  padding-left: 5% !important;
+  padding-right: 5% !important
+}
+
+.ui.two.column.grid.container {
+  padding-top: 40px;
+  padding-bottom: 60px;
+  padding-left: .75%;
+  padding-right: .75%
+}
+
+.slider {
+  width: 50%;
+  margin: 100px auto;
+}
+
+.slick-slide {
+  margin: 0px 20px;
+}
+
+.slick-slide img {
+  width: 100%;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: black;
+}
+
+.large.pinterest.square.link.icon,
+.large.twitter.square.link.icon,
+.large.tumblr.square.link.icon,
+.large.facebook.square.link.icon,
+.large.instagram.link.icon {
+  color: #ECE7E4 !important;
+  padding-left: 5%;
+  padding-right: 5%
+}
+
+.large.pinterest.square.link.icon:hover,
+.large.twitter.square.link.icon:hover,
+.large.tumblr.square.link.icon:hover,
+.large.facebook.square.link.icon:hover,
+.large.instagram.link.icon:hover {
+  color: #ABA6A2 !important;;
+}
+
+.copyright {
+  font-size: x-small;
+}
